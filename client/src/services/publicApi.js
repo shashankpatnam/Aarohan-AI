@@ -1,13 +1,5 @@
 import { ApiError } from "./api.js";
-
-const API_BASE =
-  import.meta.env.VITE_API_URL?.replace(/\/$/, "") ||
-  "http://localhost:5000/api";
-
-function buildUrl(path) {
-  const normalizedPath = path.startsWith("/") ? path : `/${path}`;
-  return `${API_BASE}${normalizedPath}`;
-}
+import { buildApiUrl } from "./apiConfig.js";
 
 /**
  * @param {string} path
@@ -24,7 +16,7 @@ async function publicFetch(path, options = {}) {
     headers.set("Authorization", `Bearer ${sessionToken}`);
   }
 
-  const response = await fetch(buildUrl(path), {
+  const response = await fetch(buildApiUrl(path), {
     method,
     headers,
     body: body !== undefined ? JSON.stringify(body) : undefined,

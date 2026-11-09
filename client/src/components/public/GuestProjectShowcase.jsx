@@ -1,5 +1,6 @@
 import { memo, useEffect, useMemo, useState } from "react";
 import { ChevronDown, MapPin } from "lucide-react";
+import { usePrefersReducedMotion } from "./usePrefersReducedMotion.js";
 import { GUEST_PROJECTS } from "../../constants/projects.js";
 import {
   cleanPossession,
@@ -142,21 +143,6 @@ export const BackgroundSlideshow = memo(function BackgroundSlideshow({ project, 
     </>
   );
 });
-
-export function usePrefersReducedMotion() {
-  const [reducedMotion, setReducedMotion] = useState(
-    () => window.matchMedia("(prefers-reduced-motion: reduce)").matches,
-  );
-
-  useEffect(() => {
-    const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
-    const updatePreference = (event) => setReducedMotion(event.matches);
-    mediaQuery.addEventListener("change", updatePreference);
-    return () => mediaQuery.removeEventListener("change", updatePreference);
-  }, []);
-
-  return reducedMotion;
-}
 
 function ProjectSelector({ value, onChange }) {
   return (

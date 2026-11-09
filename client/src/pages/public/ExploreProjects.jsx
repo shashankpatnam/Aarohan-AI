@@ -208,7 +208,7 @@ function Hero({ onGeneralChat, error, pending }) {
             className="inline-flex min-h-12 items-center justify-center gap-2 rounded-lg border border-white/70 bg-white/5 px-6 py-3 text-[17px] font-semibold text-white backdrop-blur-sm transition hover:bg-white/15 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-black"
           >
             <MessageCircle size={17} aria-hidden />
-            {pending ? "Starting chat…" : "General Chat"}
+            {pending ? "Starting chat…" : "Explore with AI"}
           </button>
         </div>
         {error ? (
@@ -354,7 +354,7 @@ function ExploreProjects() {
             ) : (
               <MessageCircle size={16} aria-hidden />
             )}
-            General Chat
+            Explore with AI
           </button>
         </div>
       </section>

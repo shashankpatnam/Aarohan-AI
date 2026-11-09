@@ -3,7 +3,8 @@ import { Link, Navigate, useLocation, useNavigate } from "react-router-dom";
 import { ArrowRight, Eye, EyeOff, Loader2 } from "lucide-react";
 import { ApiError } from "../services/api.js";
 import { useAuth } from "../context/useAuth.js";
-import { BackgroundSlideshow, usePrefersReducedMotion } from "../components/public/GuestProjectShowcase.jsx";
+import { BackgroundSlideshow } from "../components/public/GuestProjectShowcase.jsx";
+import { usePrefersReducedMotion } from "../components/public/usePrefersReducedMotion.js";
 
 function loginErrorMessage(error) {
   if (error instanceof ApiError) {

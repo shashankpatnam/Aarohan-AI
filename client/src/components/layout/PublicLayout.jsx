@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
-import { Menu, Sparkles, X } from "lucide-react";
+import { ArrowLeft, Menu, Sparkles, X } from "lucide-react";
 
 const NAV_ITEMS = [
   { id: "hero", label: "Home" },

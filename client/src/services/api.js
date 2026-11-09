@@ -1,8 +1,5 @@
 import { clearStaffToken, readStaffToken } from "./staffAuthStorage.js";
-
-const API_BASE =
-  import.meta.env.VITE_API_URL?.replace(/\/$/, "") ||
-  "http://localhost:5000/api";
+import { buildApiUrl } from "./apiConfig.js";
 
 let unauthorizedHandler = null;
 
@@ -17,21 +14,6 @@ export class ApiError extends Error {
     this.status = status;
     this.data = data;
   }
-}
-
-function buildUrl(path, searchParams) {
-  const normalizedPath = path.startsWith("/") ? path : `/${path}`;
-  const url = new URL(`${API_BASE}${normalizedPath}`);
-
-  if (searchParams) {
-    searchParams.forEach((value, key) => {
-      if (value !== undefined && value !== null && value !== "") {
-        url.searchParams.set(key, value);
-      }
-    });
-  }
-
-  return url.toString();
 }
 
 export async function apiFetch(path, options = {}) {
@@ -56,7 +38,7 @@ export async function apiFetch(path, options = {}) {
     }
   }
 
-  const response = await fetch(buildUrl(path, searchParams), {
+  const response = await fetch(buildApiUrl(path, searchParams), {
     ...rest,
     headers,
     body: body !== undefined ? JSON.stringify(body) : undefined,
