@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, sans-serif;
+  color: #1f2937;
+  background: #fafaf8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.public-glass-navbar {
+  background-color: rgba(0, 0, 0, 0.32);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+
+.login-content {
+  grid-template-columns: minmax(0, 1fr);
+  column-gap: 2rem;
+}
+
+.login-card {
+  max-width: 480px;
+}
+
+@media (min-width: 768px) {
+  .login-content {
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+    column-gap: clamp(1.5rem, 4vw, 4rem);
+  }
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html.landing-scrollbar-hidden {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html.landing-scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+@keyframes guest-chat-message-enter {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.guest-chat-message-enter {
+  animation: guest-chat-message-enter 220ms ease-out both;
+}
+
+@keyframes guest-chat-background-enter {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.guest-chat-background-enter {
+  animation: guest-chat-background-enter 1200ms ease-in-out both;
+}
+
+.guest-chat-typing-dot {
+  animation: guest-chat-typing 1s ease-in-out infinite;
+}
+
+.guest-chat-typing-dot:nth-child(2) { animation-delay: 120ms; }
+.guest-chat-typing-dot:nth-child(3) { animation-delay: 240ms; }
+
+@keyframes guest-chat-typing {
+  0%, 60%, 100% { opacity: 0.4; transform: translateY(0); }
+  30% { opacity: 1; transform: translateY(-3px); }
+}
+
+#projects,
+#contact {
+  scroll-margin-top: var(--public-header-height, 4rem);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .guest-chat-message-enter,
+  .guest-chat-background-enter,
+  .guest-chat-typing-dot {
+    animation: none;
+  }
+}
