@@ -1,0 +1,142 @@
+{
+  "projects": [
+    {
+      "projectName": "Skyline Residences",
+      "location": "Near the SG Highway corridor, Ahmedabad (demo location)",
+      "propertyConfigurations": ["2 BHK", "3 BHK"],
+      "priceInformation": {
+        "summary": "Homes are priced by configuration and floor. Final pricing is shared by the sales team.",
+        "startingFrom": "Starting from around ₹65 lakh (indicative only)",
+        "note": "This is not a final price or offer. Exact pricing and any discounts are confirmed by a sales executive."
+      },
+      "amenities": [
+        "Landscaped central courtyard",
+        "Clubhouse with indoor games room",
+        "Children's play area",
+        "Covered parking",
+        "24x7 security and CCTV",
+        "Power backup for common areas"
+      ],
+      "possessionTimeline": "Possession is planned for December 2027, as per the registered timeline (demo data).",
+      "reraInformation": "Registered under RERA. Registration number: DEMO-GJ-RERA-0001 (fictional demo number).",
+      "visitProcess": "You can book a site visit directly through this chat. The booking flow collects your contact details, shows available dates and time slots, and submits your selected visit. Your visit is confirmed only after the booking is successfully submitted.",
+      "inventoryInformation": null,
+      "approvalStatus": "approved"
+    },
+    {
+      "projectName": "Green Valley Phase 2",
+      "location": "Near the Bopal–Shilaj area, Ahmedabad (demo location)",
+      "propertyConfigurations": ["2 BHK", "3 BHK"],
+      "priceInformation": {
+        "summary": "Pricing varies by configuration, floor and facing. The sales team confirms final pricing.",
+        "startingFrom": "Starting from around ₹58 lakh (indicative only)",
+        "note": "This is not a final price or offer. Exact pricing and any discounts are confirmed by a sales executive."
+      },
+      "amenities": [
+        "Rooftop sit-out garden",
+        "Fitness studio",
+        "Senior citizens' seating area",
+        "Covered parking",
+        "Rainwater harvesting",
+        "EV charging points in the parking area"
+      ],
+      "possessionTimeline": "Possession is planned for June 2028, as per the registered timeline (demo data).",
+      "reraInformation": "Registered under RERA. Registration number: DEMO-GJ-RERA-0002 (fictional demo number).",
+      "visitProcess": "You can book a site visit directly through this chat. The booking flow collects your contact details, shows available dates and time slots, and submits your selected visit. Your visit is confirmed only after the booking is successfully submitted.",
+      "inventoryInformation": null,
+      "approvalStatus": "approved"
+    },
+    {
+      "projectName": "Riverfront Heights",
+      "location": "Close to the Sabarmati riverfront, Ahmedabad (demo location)",
+      "propertyConfigurations": ["3 BHK"],
+      "priceInformation": {
+        "summary": "Premium 3 BHK homes, priced by floor and view. The sales team confirms final pricing.",
+        "startingFrom": "Starting from around ₹1.1 crore (indicative only)",
+        "note": "This is not a final price or offer. Exact pricing and any discounts are confirmed by a sales executive."
+      },
+      "amenities": [
+        "River-facing sky lounge",
+        "Residents' library",
+        "Swimming pool",
+        "Covered parking with two spaces per home",
+        "Concierge desk",
+        "24x7 security and CCTV"
+      ],
+      "possessionTimeline": "Possession is planned for March 2028, as per the registered timeline (demo data).",
+      "reraInformation": "Registered under RERA. Registration number: DEMO-GJ-RERA-0003 (fictional demo number).",
+      "visitProcess": "You can book a site visit directly through this chat. The booking flow collects your contact details, shows available dates and time slots, and submits your selected visit. Your visit is confirmed only after the booking is successfully submitted.",
+      "inventoryInformation": null,
+      "approvalStatus": "approved"
+    },
+    {
+      "projectName": "Palm Grove Villas",
+      "location": "On the Ahmedabad–Gandhinagar side, Gujarat (demo location)",
+      "propertyConfigurations": ["3 BHK villa", "4 BHK villa"],
+      "priceInformation": {
+        "summary": "Independent villas, priced by plot size and configuration. The sales team confirms final pricing.",
+        "startingFrom": "Starting from around ₹1.2 crore (indicative only)",
+        "note": "This is not a final price or offer. Exact pricing and any discounts are confirmed by a sales executive."
+      },
+      "amenities": [
+        "Gated community with a landscaped entrance",
+        "Private garden for each villa",
+        "Community clubhouse",
+        "Walking and cycling track",
+        "24x7 security and CCTV",
+        "Dedicated visitor parking"
+      ],
+      "possessionTimeline": "Possession is planned for September 2028, as per the registered timeline (demo data).",
+      "reraInformation": "Registered under RERA. Registration number: DEMO-GJ-RERA-0004 (fictional demo number).",
+      "visitProcess": "You can book a site visit directly through this chat. The booking flow collects your contact details, shows available dates and time slots, and submits your selected visit. Your visit is confirmed only after the booking is successfully submitted.",
+      "inventoryInformation": null,
+      "approvalStatus": "approved"
+    },
+    {
+  "projectName": "Orchid Park Residences",
+  "location": "Near the Gota–Chandkheda belt, Ahmedabad (demo location)",
+  "propertyConfigurations": ["2 BHK", "3 BHK"],
+  "priceInformation": {
+    "summary": "Family-focused homes priced by configuration and floor. The sales team confirms final pricing.",
+    "startingFrom": "Starting from around ₹72 lakh (indicative only)",
+    "note": "This is not a final price or offer. Exact pricing and any discounts are confirmed by a sales executive."
+  },
+  "amenities": [
+    "Landscaped garden with walking path",
+    "Children's play zone",
+    "Multipurpose community hall",
+    "Covered parking",
+    "24x7 security and CCTV",
+    "Solar lighting for common areas"
+  ],
+  "possessionTimeline": "Possession is planned for November 2027, as per the registered timeline (demo data).",
+  "reraInformation": "Registered under RERA. Registration number: DEMO-GJ-RERA-0005 (fictional demo number).",
+  "visitProcess": "You can book a site visit directly through this chat. The booking flow collects your contact details, shows available dates and time slots, and submits your selected visit. Your visit is confirmed only after the booking is successfully submitted.",
+  "inventoryInformation": null,
+  "approvalStatus": "approved"
+},
+{
+  "projectName": "Terrace Gardens",
+  "location": "Near the Prahlad Nagar side, Ahmedabad (demo location)",
+  "propertyConfigurations": ["3 BHK"],
+  "priceInformation": {
+    "summary": "Premium 3 BHK homes with private terraces, priced by floor and facing. The sales team confirms final pricing.",
+    "startingFrom": "Starting from around ₹95 lakh (indicative only)",
+    "note": "This is not a final price or offer. Exact pricing and any discounts are confirmed by a sales executive."
+  },
+  "amenities": [
+    "Private terrace garden with each home",
+    "Rooftop yoga deck",
+    "Co-working lounge",
+    "Covered parking with two spaces per home",
+    "Concierge desk",
+    "24x7 security and CCTV"
+  ],
+  "possessionTimeline": "Possession is planned for May 2028, as per the registered timeline (demo data).",
+  "reraInformation": "Registered under RERA. Registration number: DEMO-GJ-RERA-0006 (fictional demo number).",
+  "visitProcess": "You can book a site visit directly through this chat. The booking flow collects your contact details, shows available dates and time slots, and submits your selected visit. Your visit is confirmed only after the booking is successfully submitted.",
+  "inventoryInformation": null,
+  "approvalStatus": "approved"
+}
+  ]
+}
